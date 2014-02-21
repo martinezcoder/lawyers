@@ -12,13 +12,26 @@
 	margin: 0 auto;
 }
 
-@media(max-width:400px){
+@media(max-width:640px){
+  button.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-header {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+
 
 }
+
 @media(min-width:640px){
-
 }
+
 @media(min-width:768px){
-
 }
-@media(min-width:1200px){}
+
+@media(min-width:1200px){
+}
+
+
